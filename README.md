@@ -51,10 +51,19 @@ The module helps aquaculture farmers analyze shrimp activity, monitor feeding be
 ---
 
 ## ▶️ How to Run
-1. Open the notebook in **Google Colab**.  
-2. Upload the dataset and model weights (if available).  
-3. Run all cells sequentially.  
-4. View results in the `outputs/` folder or final cell outputs.
+1. 1. Open notebook in Google Colab.  
+2. Install YOLOv8:  
+   ```python
+   !pip install ultralytics
+3.Upload your trained weights file (best.pt).
+4.Run all cells to perform detection and shrimp counting.
+
+## 📂 Dataset
+A custom-labeled shrimp dataset was created for YOLOv8 training using the CVAT tool.  
+It contains annotated shrimp images in YOLO format (images + .txt labels).
+
+📥 [Download Shrimp Counting Dataset](https://drive.google.com/drive/folders/1Zd4fYePK51LQ6BKe4EPNZrlGB79vIYfe?usp=drive_link)
+
 
 ---
 
@@ -69,3 +78,15 @@ Example output:
 | ![output](outputs/sample_counting_1.png) |
 
 ---
+
+## 🌱 Future Enhancements
+- Deploy on real-time video streams for continuous shrimp monitoring.
+- Integrate with feed consumption module for combined insights.  
+
+---
+
+## 👩‍💻 Author
+**Pavan Satya Prakash Adabala**  
+B.Tech Information Technology  
+Email: pavansatyaprakashadabala@gmail.com
+GitHub: [Pavan Adabala](https://github.com/PavanAdabala08)
