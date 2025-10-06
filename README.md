@@ -66,6 +66,6 @@ Example output:
 
 | Detection Output |
 |------------------|
-| ![output](outputs/sample_counting_1.png) |
+| ![output](Out Puts/sample_counting_1.png) |
 
 ---
